@@ -1,0 +1,39 @@
+{
+  "name": "feria-laboral-backend",
+  "version": "1.0.0",
+  "description": "pasaporte unifranz backend web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Moises Ochoa",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.663.0",
+    "bcrypt": "^4.0.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "ioredis": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "mysql2": "^2.1.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "redis": "^3.0.2",
+    "sequelize": "^5.21.5",
+    "sms-service": "^1.1.5",
+    "socket.io": "^2.3.0",
+    "socket.io-redis": "^5.3.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
